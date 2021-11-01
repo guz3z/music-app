@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const beats = ({Name, Genre, Intro}) => {
+export const beats = ({name, genre, intro}) => {
     return (
         <li>
-            <strong>{Name}</strong> sings {Genre}. Quick fact: {Intro}.
+            <strong>{name}</strong> sings {genre}. Quick fact: {intro}.
         </li>
     )
 }
